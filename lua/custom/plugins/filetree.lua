@@ -5,6 +5,7 @@ return {
 	version = "*",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
 		"MunifTanjim/nui.nvim",
 	},
 	config = function()
@@ -20,14 +21,6 @@ return {
 				position = "right"
 			},
 			default_component_configs = {
-				icon = {
-					folder_closed = "",
-					folder_open = "",
-					folder_empty = "",
-					default = "",
-					highlight = ""
-
-				},
 				modified = {
 					symbol = "",
 					highlight = "",
