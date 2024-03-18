@@ -1,10 +1,10 @@
 -- File: lua/custom/plugins/theme.lua
 
 return {
-  "zootedb0t/citruszest.nvim",
+	"bluz71/vim-moonfly-colors",
 	lazy = false,
 	priority = 1000,
 	config = function()
-		vim.cmd("colorscheme citruszest") -- set the colorscheme
+		vim.cmd("colorscheme moonfly") -- set the colorscheme
 	end,
 }
